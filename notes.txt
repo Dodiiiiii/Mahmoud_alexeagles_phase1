@@ -1,0 +1,21 @@
+1. H-Bridge Motor Control
+
+An H-Bridge is a switching circuit used to drive DC motors in both directions. It consists of four transistors (or MOSFETs) arranged in an “H” configuration.
+
+By turning on opposite pairs of switches, the motor rotates clockwise or counterclockwise.
+
+Applying PWM signals controls motor speed.
+
+Commonly used in robotics, automation, and microcontroller-based motor drivers.
+
+2. PNP & NPN Overvoltage Protection
+
+Overvoltage can damage circuits, so protection using PNP and NPN transistors is applied.
+
+Under normal voltage, the transistors remain off.
+
+When voltage exceeds a safe limit, the transistors conduct, diverting excess current away from sensitive components.
+
+Often combined with resistors or zener diodes to define the threshold.
+
+Widely used in protecting power supplies, microcontrollers, and motor drivers from spikes or back EMF.
